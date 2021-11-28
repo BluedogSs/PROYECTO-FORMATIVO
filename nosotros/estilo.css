@@ -78,44 +78,30 @@ h1 {
 }
 
 
+
 .todo {
-    display: flex;
     display: grid;  
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr, 1fr;
     gap: 25px;
-    margin: 20px;
-
+    margin-top: 10px;
   }
 
-.mision {
+  .mision {
+    max-width: 100%;
     background: #C7C7C7;
     justify-content: center;
     text-align: center;
-    
+    margin-left: 10px;
   }
 
-  
-  h2 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    margin-top: 10px;
-    font-family: cursive;
-  }
-  .texto {
-    text-align: justify;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 15px;
-  }
   .vision {
     background: #C7C7C7;
     justify-content: center;
     text-align: center;
-
-     
+     margin-right: 10px;
   }
+  
   .metas {
     background: #C7C7C7;
     justify-content: center;
@@ -126,7 +112,33 @@ h1 {
     margin-bottom: 20px;
     font-family: cursive;
   }
+
+  .todo h2, .metas h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: cursive;
+  }
+
   
+
+  .texto {
+    text-align: justify;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+  }
+
+
+
+  
+  .todo img, .metas img {
+      height: 150px;
+      width: 250px;
+  }
+
+
   /* Estilos del footer */
 footer {
     width: 100%;
@@ -299,6 +311,13 @@ footer {
         font-size: 20px;
     }
 
+    .todo img, .metas img {
+        height: 100px;
+        width: 150px;
+    }
+
+    
+
   }
 
   @media screen and (max-width: 440px) {
@@ -314,4 +333,36 @@ footer {
       padding: 2em;
    }
   }
+
+  @media screen and (max-width: 667px) {
+    .todo{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between; 
+    }
+
+
+    .mision {
+        margin-top: 10px;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+    .vision {
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    .metas {
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-left: 35%;
+    }
+
+  
+}
  
