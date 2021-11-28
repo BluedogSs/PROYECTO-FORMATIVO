@@ -35,7 +35,7 @@
         <h1 align="center">RESERVAS</h1>
 
 
-        <form method="post" action="funcion.php" >
+        <form method="post">
           <center>
               <hr align="center" width="40%">
       <table border="4">
@@ -88,13 +88,15 @@
         
       </form>
 
-
-      
+      <?php include("funcion.php")?>
 
       
       
     </div>
 <br><br><br><br><br><br>
+
+      
+
     <footer>
 
       <div class="container-footer-all">

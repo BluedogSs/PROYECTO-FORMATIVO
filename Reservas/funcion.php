@@ -13,7 +13,17 @@
         
         $dato = mysqli_query($con, "INSERT INTO datos (dia, nombre, telefono, personas, email, hora, evento) VALUES('$Dia', '$Nombre', '$Telefono', '$Personas', '$Email', '$Hora', '$Evento')");
 
-     }
+    }
+    if ($dato) {
+        ?>
+        <script>alert("Reserva Exitosa");</script>
+        <?php
+    } else {
+        ?>
+        <script>alert("Reserva fallida");</script>
+        <?php
+    }
+    
     
     
 ?>
