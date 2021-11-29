@@ -8,6 +8,12 @@ body {
        ol, ul {
         list-style: none;
     }
+
+    li a{
+        color: white;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+    }
     
     header {
         background-color: rgba(32, 1, 1, 0.952);

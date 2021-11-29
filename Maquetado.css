@@ -43,6 +43,13 @@ li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif  ;
 }
 
+.horario{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 ol, ul {
@@ -60,12 +67,11 @@ header {
 
 header img{
     float: right;
-    height: 105px;
-    
-    padding: 1em;
-    border-radius: 40%;
+    height: 110px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius:50%;
 
-    
 }
 
 .container{
@@ -252,7 +258,7 @@ h1{
     grid-template-rows: 1fr, 1fr;
     gap: 25px;
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     
 
 }

@@ -31,15 +31,16 @@ header {
 li a{
   color: white;
   text-decoration: none;
-  font-family: serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
 }
  
 header img{
-  float: right;
-  height: 105px;
-  
-  padding: 1em;
-  border-radius: 40%;
+    float: right;
+    height: 110px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius:50%;
+
 }
 
 .nav-main{

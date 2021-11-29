@@ -35,7 +35,7 @@
         <h1 align="center">RESERVAS</h1>
 
 
-        <form method="post">
+        <form method="post" >
           <center>
               <hr align="center" width="40%">
       <table border="4">
