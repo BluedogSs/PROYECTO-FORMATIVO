@@ -16,13 +16,13 @@
     <nav class="nav-main">
       <ul class="nav-menu">
         <li>
-          <a href="../PaginaPrincipal1.html">Inicio</a>
+          <a href="../index.html">Inicio</a>
         </li>
         <li>
           <a href="../Menu/menurestaurante.html">Menu</a>
         </li>
         <li>
-          <a href="../Reservas/Reservas.html">Reservas</a>
+          <a href="../Reservas/Reservas.php">Reservas</a>
         </li>
         <li>
           <a href="../nosotros/nosotros.html">Quienes somos</a>
