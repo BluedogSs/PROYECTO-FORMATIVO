@@ -225,34 +225,53 @@ footer {
     color: #C7C7C7;
 }
 
-
 @media screen and (max-width: 830px) {
 
     .nav-main ul li {
-        font-size: 20px;
-        padding: 25px;
+        font-size: 10px;
+        padding: 15px;
+        margin-right: 5%;
 
     }
 
+   
+
     header img{
+        margin-right: -11%;
+        float: right;
         height: 65px;
+        padding-right: 0%;
+        border-radius:50%;
         padding: 2em;
+    
     }
 
     .container-body{
         flex-wrap: wrap;
+        font-size: 10px;
     }
 
     .colum1{
         max-width: 100%;
+       
     }
 
     .colum2, .colum3{
         margin-top: 40px;
+        
     }
 
+    form{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+     h1{
+         font-size: 20px;
+     }
     
-    
+    .fila2{
+        font-size: 11px;
+        
+    }
 }
-
 

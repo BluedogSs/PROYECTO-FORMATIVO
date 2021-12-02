@@ -31,7 +31,7 @@
     </nav>
   </header>
   
-    <div class="login-form">
+<div class="login-form">
         <h1 align="center">RESERVAS</h1>
 
 
@@ -77,7 +77,7 @@
               
          
          </table>
-        <input type="submit" name="reservacion" value="reservacion">
+        <input type="submit" name="reservacion" value="RESERVACION">
          
              </div>
          <hr align="center" width="40%"> <br>
@@ -88,7 +88,8 @@
         
       </form>
 
-      <?php include("funcion.php")?>
+      <?php include("correo.php")
+      ?>
 
       
       

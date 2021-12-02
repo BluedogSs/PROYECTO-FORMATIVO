@@ -11,7 +11,9 @@
     mysqli_select_db($con,$bd)
     or die('no se pudo conectar con la base de datos' . mysqli_error());
     return $con;
+    
     echo("conexion exitosa");
     }
     
 ?>
+
